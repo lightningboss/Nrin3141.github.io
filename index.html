@@ -1,39 +1,46 @@
 <!DOCTYPE html>
 
 <html>
-
-<head>
-
+  <head>
     <meta charset="utf-8">
-    <title>Who am I?</title>
+    <title>My Bio</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
-</head>
+  </head>
 <body>
-
-    <ul class="linkbase">
-        <a href="#about-me"> <!-- Listenelemente + Naming mit - -->
+  <ul class="link-base">
+        <li>
+          <a href="#about-me">
             About me
-        </a>
-        <a href="#want-to-be">
+          </a>
+        </li>
+        <li>
+          <a href="#want-to-be">
             Future
-        </a>
-        <a href="#gallery">
+          </a>
+        </li>
+        <li>
+          <a href="#gallery">
             Gallery
-        </a>
-        <a href="#contact">
+          </a>
+        </li>
+        <li>
+          <a href="#contact">
             Contact
-        </a>
-        <a href="https://github.com/Nrin3141">
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/Nrin3141">
             <i style="color:rgb(240,240,240); font-size:50px" class="fa fa fa-github">
                 <p style="font-size:20px; color:rgb(240,240,240)">Github</p>
             </i>
-        </a>
+          </a>
+        </li>
     </ul>
 
-    <div class="head">
+    <div class="header">
         <h1> Who am I?</h1>
     </div>
     <a name="about-me"></a>
@@ -48,7 +55,7 @@
     <div class="container seperation-border">
         <div class="jumbotron">
             <p class="text-center"> Waves rushing towards the shore... </p>
-            <img class="img-responsive" src="https://images.alphacoders.com/215/215341.jpg" alt="Waves">
+            <img src="https://images.alphacoders.com/215/215341.jpg" alt="Waves">
             <p class="text-center"> ...are a thing I enjoy </p>
         </div>
     </div>
@@ -77,42 +84,38 @@
         </div>
         <a name="gallery"></a>
         <div class="container seperation-border">
-            <div id="gallery" class="jumbotron">
-                <img
-                src="assets/fern"      alt="fern">
-                <img
-                src="assets/flower"      alt="flower">
-                <img
-                src="assets/ice-tree" alt="icy-tree">
-                <img
-                src="assets/lady-bug"      alt="lady-bug">
-                <img
-                src="assets/leaf"      alt="leaf">
-                <img
-                src="assets/roots"      alt="roots">
-                <img
-                src="assets/sunset-pano"      alt="sunset-pano">
-                <img
-                src="assets/yellow-tall-grass"      alt="yellow-tall-grass">
-            </div></div>
+            <div class="gallery jumbotron">
+                <img src="assets/fern" alt="fern">
+                <img src="assets/flower" alt="flower">
+                <img src="assets/ice-tree" alt="icy-tree">
+                <img src="assets/lady-bug" alt="lady-bug">
+                <img src="assets/leaf" alt="leaf">
+                <img src="assets/roots" alt="roots">
+                <img src="assets/sunset-pano" alt="sunset-pano">
+                <img src="assets/yellow-tall-grass" alt="yellow-tall-grass">
+            </div>
+        </div>
             <a name="contact"></a>
             <div class="container seperation-border">
                 <div class="jumbotron">
-                    <h1>Contact</h1>
+                    <h1>Contact </h1>
                     <form action="/submit-cat-photo">
                         <label for="name">Your Name:</label>
                         <input type="text" name="name" required>
+                        <br>
                         <label for="email">Your E-Mail:</label>
                         <input type="email" name="email" required>
+                        <br>
                         <label for="message">Your Message:</label>
-                        <textarea name="message" rows="5" cols="50"></textarea>
+                        <textarea name="message" rows="5" cols="50"></textarea><br>
                         <button class="btn btn-primary" type="submit">Submit</button>
                     </form>
                 </div>
             </div>
             <div class="footer seperation-border">
-                <p> Imprint </p> <!-- Font Size -->
-                <p> photography page: <a style="color:rgb(0, 102, 153);font-size:30px" href="https://naturesbeautyphotography.jimdo.com/">https://naturesbeautyphotography.jimdo.com/</a></p>
+                <p> Imprint </p>
+                <p> photography page: <a style="color:rgb(0, 102, 153);font-size:30px"
+                    href="https://naturesbeautyphotography.jimdo.com/">https://naturesbeautyphotography.jimdo.com/</a></p>
             </div>
 </body>
 

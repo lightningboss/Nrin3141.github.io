@@ -1,18 +1,21 @@
 body {
     background-color:#069;
 }
-#gallery img{
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.gallery img{
   margin-top:30px;
   margin-bottom:30px;
 }
-img {
-  img-responsive;
-}
+
 .seperation-border{
-  border-bottom:10px;
+  border-bottom:10px solid rgb(30,30,30);
   margin-top:30px;
 }
-.linkbase {
+.link-base {
     display:flex;
     flex-direction:row;
     min-height:20px;
@@ -25,11 +28,11 @@ img {
     margin:auto;
 }
 
-.linkbase a {
+.link-base a {
     margin: 0 10px;
 }
 
-.head, .footer {
+.header, .footer {
     display:flex;
     flex-direction:row;
     min-height:150px;
@@ -41,10 +44,10 @@ img {
     font-style:italic;
     color:#069;
 }
-.footer div{
+.footer p{
   font-size:30px;
 }
-.head {
+.header {
     padding-top: 140px;
 }
 
