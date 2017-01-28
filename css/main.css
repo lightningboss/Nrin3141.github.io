@@ -1,10 +1,9 @@
 body {
     background-color:#069;
 }
-
-.margins {
-    margin-top: 30px;
-    margin-bottom: 30px;
+#gallery img{
+  margin-top:30px;
+  margin-bottom:30px;
 }
 
 .textstyle {
@@ -37,7 +36,7 @@ body {
     margin: 0 10px;
 }
 
-.head, .foot {
+.head, .footer {
     display:flex;
     flex-direction:row;
     min-height:150px;
