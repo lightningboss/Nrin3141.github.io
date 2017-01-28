@@ -1,10 +1,12 @@
 body {
     background-color:#069;
 }
-
-.gallery img{
-  margin-top:30px;
+.gallery-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
   margin-bottom:30px;
+  margin-top:30px;
 }
 
 .seperation-border{
@@ -43,7 +45,7 @@ body {
 .footer p{
   font-size:30px;
 }
-.header {
+.head {
     padding-top: 140px;
 }
 
