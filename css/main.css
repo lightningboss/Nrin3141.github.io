@@ -10,7 +10,6 @@ body {
   margin-top:30px;
 }
 .seperation-border{
-  width:100%;
   border-bottom:10px solid rgb(30,30,30);
   margin-top:30px;
 }
@@ -56,6 +55,9 @@ a:hover {
 }
 .footer{
   font-size:15px;
+}
+.footer>a{
+  color:#069;
 }
 .header {
     padding-top: 140px;
