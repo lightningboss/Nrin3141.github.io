@@ -10,6 +10,7 @@ body {
   margin-top:30px;
 }
 .seperation-border{
+  width:100%;
   border-bottom:10px solid rgb(30,30,30);
   margin-top:30px;
 }
@@ -30,6 +31,14 @@ body {
 }
 .link-base a {
     margin: 0 10px;
+    font-size:20px;
+    color:#FFF;
+}
+a {
+    display:block;
+    text-align:center;
+}
+a:hover {
     font-size:20px;
 }
 #contact-field>a{
@@ -52,16 +61,4 @@ body {
     padding-top: 140px;
     font-size:150px;
     font-style:italic;;
-}
-.small {
-    width:100px;
-}
-a {
-    display:block;
-    color:#FFF;
-    text-align:center;
-}
-a:hover {
-    font-size:20px;
-    color:#FFF;
 }
