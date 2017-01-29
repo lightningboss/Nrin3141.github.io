@@ -1,5 +1,6 @@
 body {
     background-color:#069;
+    color:#069;
 
 }
 .gallery-img {
@@ -28,12 +29,12 @@ body {
     position:fixed;
     margin:auto;
 }
-.link-base a {
+.link-base>a {
     margin: 0 10px;
     font-size:20px;
     color:#FFF;
 }
-a {
+a:link {
     display:block;
     text-align:center;
 }
